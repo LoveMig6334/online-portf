@@ -87,7 +87,7 @@ const SubjectPortfolio: React.FC = () => {
             </div>
 
             {/* Hover Background Accent */}
-            <div className="absolute inset-0 bg-linear-to-brrom-transparent to-slate-50/50 opacity-0 group-hover:opacity-100 rounded-3xl -z-10 transition-opacity" />
+            <div className="absolute inset-0 bg-linear-to-br from-transparent to-slate-50/50 opacity-0 group-hover:opacity-100 rounded-3xl -z-10 transition-opacity" />
           </Link>
         ))}
       </div>

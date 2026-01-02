@@ -54,7 +54,7 @@ const Skills: React.FC = () => {
               Programming Proficiency
             </h3>
             <div className="h-[300px] w-full">
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer width="100%" height="100%" minWidth={0}>
                 <BarChart
                   data={programmingData}
                   layout="vertical"
@@ -101,7 +101,7 @@ const Skills: React.FC = () => {
               Academic Aptitude
             </h3>
             <div className="h-[300px] w-full">
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer width="100%" height="100%" minWidth={0}>
                 <RadarChart
                   cx="50%"
                   cy="50%"
