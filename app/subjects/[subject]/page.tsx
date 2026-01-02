@@ -103,20 +103,25 @@ export function generateStaticParams() {
 }
 
 // Generate metadata for each subject page
-export function generateMetadata({ params }: { params: { subject: string } }) {
-  const title = subjectTitles[params.subject] || "Subject";
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ subject: string }>;
+}) {
+  const { subject } = await params;
+  const title = subjectTitles[subject] || "Subject";
   return {
     title: `${title} | Student Portfolio`,
     description: `View projects and work from ${title} category.`,
   };
 }
 
-export default function SubjectPage({
+export default async function SubjectPage({
   params,
 }: {
-  params: { subject: string };
+  params: Promise<{ subject: string }>;
 }) {
-  const { subject } = params;
+  const { subject } = await params;
   const projects = projectData[subject] || [];
   const title = subjectTitles[subject] || "Subject";
 
