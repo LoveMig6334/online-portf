@@ -5,7 +5,7 @@ const Hero: React.FC = () => {
   return (
     <section
       id="profile"
-      className="relative pt-20 pb-12 overflow-hidden bg-gradient-to-b from-white to-surface-light"
+      className="relative pt-20 pb-12 overflow-hidden bg-linear-to-b from-white to-surface-light"
     >
       {/* Background Decoration */}
       <div className="absolute top-20 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl -z-10 translate-x-1/3" />
@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
         {/* Profile Image Frame */}
         <div className="relative mb-8 group">
-          <div className="absolute -inset-1 bg-gradient-to-tr from-primary to-secondary rounded-full opacity-75 blur group-hover:opacity-100 transition duration-500"></div>
+          <div className="absolute -inset-1 bg-linear-to-tr from-primary to-secondary rounded-full opacity-75 blur group-hover:opacity-100 transition duration-500"></div>
           <div className="relative w-48 h-48 sm:w-56 sm:h-56 rounded-full border-4 border-white shadow-xl overflow-hidden bg-slate-200">
             <Image
               src="https://picsum.photos/400/400"
@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
           </div>
           <h1 className="text-4xl sm:text-6xl font-extrabold text-dark tracking-tight">
             Hi, I&apos;m{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-600">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-blue-600">
               Nawat S.
             </span>
           </h1>

@@ -103,7 +103,7 @@ const Timeline: React.FC = () => {
               {timelineEvents.map((event, index) => (
                 <div
                   key={index}
-                  className="relative w-80 flex-shrink-0 flex flex-col items-center group snap-center"
+                  className="relative w-80 shrink-0 flex flex-col items-center group snap-center"
                   style={{ marginTop: index % 2 === 0 ? "-140px" : "140px" }}
                 >
                   {/* The Dot */}

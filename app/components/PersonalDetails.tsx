@@ -71,7 +71,7 @@ const PersonalDetails: React.FC = () => {
         />
       </div>
 
-      <div className="mt-8 p-6 rounded-2xl bg-gradient-to-r from-primary to-blue-600 text-white shadow-lg">
+      <div className="mt-8 p-6 rounded-2xl bg-linear-to-r from-primary to-blue-600 text-white shadow-lg">
         <h3 className="text-xl font-bold mb-2">My Motto</h3>
         <p className="text-blue-50 text-lg italic">
           &quot;The best way to predict the future is to create it.&quot;
