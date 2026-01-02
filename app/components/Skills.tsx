@@ -142,7 +142,7 @@ const Skills: React.FC = () => {
           <div className="bg-white p-6 rounded-2xl border border-slate-100 flex items-center justify-between">
             <div>
               <h4 className="font-bold text-dark">Thai</h4>
-              <p className="text-slate-500 text-sm">Native Speaker</p>
+              <p className="text-slate-600 text-sm">Native Speaker</p>
             </div>
             <div className="w-12 h-12 rounded-full border-4 border-primary flex items-center justify-center text-xs font-bold text-primary">
               100%
@@ -151,7 +151,7 @@ const Skills: React.FC = () => {
           <div className="bg-white p-6 rounded-2xl border border-slate-100 flex items-center justify-between">
             <div>
               <h4 className="font-bold text-dark">English</h4>
-              <p className="text-slate-500 text-sm">IELTS 7.5</p>
+              <p className="text-slate-600 text-sm">IELTS 7.5</p>
             </div>
             <div className="w-12 h-12 rounded-full border-4 border-secondary flex items-center justify-center text-xs font-bold text-secondary">
               85%
@@ -160,7 +160,7 @@ const Skills: React.FC = () => {
           <div className="bg-white p-6 rounded-2xl border border-slate-100 flex items-center justify-between">
             <div>
               <h4 className="font-bold text-dark">Japanese</h4>
-              <p className="text-slate-500 text-sm">JLPT N4</p>
+              <p className="text-slate-600 text-sm">JLPT N4</p>
             </div>
             <div className="w-12 h-12 rounded-full border-4 border-slate-300 flex items-center justify-center text-xs font-bold text-slate-400">
               40%

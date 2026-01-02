@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
               Nawat S.
             </span>
           </h1>
-          <p className="text-lg sm:text-xl text-slate-500 font-medium leading-relaxed max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-slate-600 font-medium leading-relaxed max-w-2xl mx-auto">
             Aspiring{" "}
             <span className="text-dark font-bold underline decoration-secondary decoration-4 underline-offset-2">
               Computer Engineer
@@ -66,25 +66,25 @@ const Hero: React.FC = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="flex flex-col items-center">
               <span className="text-3xl font-bold text-dark">15+</span>
-              <span className="text-sm text-slate-500 font-medium uppercase tracking-wide mt-1">
+              <span className="text-sm text-slate-600 font-medium uppercase tracking-wide mt-1">
                 Projects
               </span>
             </div>
             <div className="flex flex-col items-center">
               <span className="text-3xl font-bold text-dark">3.98</span>
-              <span className="text-sm text-slate-500 font-medium uppercase tracking-wide mt-1">
+              <span className="text-sm text-slate-600 font-medium uppercase tracking-wide mt-1">
                 GPA
               </span>
             </div>
             <div className="flex flex-col items-center">
               <span className="text-3xl font-bold text-dark">M.4</span>
-              <span className="text-sm text-slate-500 font-medium uppercase tracking-wide mt-1">
+              <span className="text-sm text-slate-600 font-medium uppercase tracking-wide mt-1">
                 Grade
               </span>
             </div>
             <div className="flex flex-col items-center">
               <span className="text-3xl font-bold text-dark">SC</span>
-              <span className="text-sm text-slate-500 font-medium uppercase tracking-wide mt-1">
+              <span className="text-sm text-slate-600 font-medium uppercase tracking-wide mt-1">
                 Council
               </span>
             </div>

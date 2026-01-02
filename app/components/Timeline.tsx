@@ -152,7 +152,7 @@ const Timeline: React.FC = () => {
                     <h4 className="font-semibold text-slate-700 mb-2">
                       {event.title}
                     </h4>
-                    <p className="text-sm text-slate-500 mb-3">{event.desc}</p>
+                    <p className="text-sm text-slate-600 mb-3">{event.desc}</p>
 
                     <div className="text-left bg-slate-50 p-3 rounded-xl">
                       <ul className="list-disc list-inside text-xs text-slate-600 space-y-1">

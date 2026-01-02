@@ -29,7 +29,7 @@ const PersonalDetails: React.FC = () => {
     <section className="py-16 px-4 max-w-7xl mx-auto">
       <div className="mb-12 text-center">
         <h2 className="text-3xl font-bold text-dark">Personal Details</h2>
-        <p className="text-slate-500 mt-2">Get to know me a little better</p>
+        <p className="text-slate-600 mt-2">Get to know me a little better</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

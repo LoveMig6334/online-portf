@@ -49,7 +49,7 @@ const SubjectPortfolio: React.FC = () => {
             Academic <br />
             <span className="text-primary">Masterpieces</span>
           </h2>
-          <p className="text-slate-500 mt-4 text-lg">
+          <p className="text-slate-600 mt-4 text-lg">
             Explore my work categorized by subject. Click on a card to see
             detailed projects.
           </p>
@@ -81,7 +81,7 @@ const SubjectPortfolio: React.FC = () => {
               <h3 className="text-2xl font-bold text-dark group-hover:text-primary transition-colors">
                 {subject.name}
               </h3>
-              <p className="text-slate-500 mt-2 font-medium">
+              <p className="text-slate-600 mt-2 font-medium">
                 {subject.description}
               </p>
             </div>

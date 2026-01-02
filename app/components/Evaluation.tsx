@@ -53,7 +53,7 @@ const Evaluation: React.FC = () => {
             <h2 className="text-3xl font-bold text-dark mt-2">
               Evaluate My Portfolio
             </h2>
-            <p className="text-slate-500 mt-2">
+            <p className="text-slate-600 mt-2">
               Help me improve by rating your experience.
             </p>
           </div>
